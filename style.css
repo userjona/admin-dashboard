@@ -12,6 +12,9 @@
   font-size: 100%;
 }
 
+body {
+  height: 100px;
+}
 .container {
   display: grid;
   height: 100vh;
@@ -164,7 +167,7 @@
   background: rgba(226,232,240,255);;
   padding: 40px 20px 60px 40px;
   grid-template-columns: 4fr 320px;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr;
 }
 
 /* projects */
